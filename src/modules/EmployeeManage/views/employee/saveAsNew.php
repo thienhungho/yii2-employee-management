@@ -4,7 +4,7 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model BaseApp\hrm\modules\EmployeeBase\Employee */
+/* @var $model thienhungho\EmployeeManagement\modules\EmployeeBase\Employee */
 
 $this->title = Yii::t('app', 'Save As New {modelClass}: ', [
     'modelClass' => 'Employee',

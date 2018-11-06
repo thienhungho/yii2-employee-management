@@ -1,6 +1,6 @@
 <?php
 
-namespace BaseApp\hrm\modules\EmployeeBase\controllers;
+namespace thienhungho\EmployeeManagement\modules\EmployeeBase\controllers;
 
 use yii\web\Controller;
 

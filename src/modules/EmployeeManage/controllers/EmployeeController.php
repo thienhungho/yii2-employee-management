@@ -1,9 +1,9 @@
 <?php
 
-namespace BaseApp\hrm\modules\EmployeeManage\controllers;
+namespace thienhungho\EmployeeManagement\modules\EmployeeManage\controllers;
 
-use BaseApp\hrm\modules\EmployeeBase\Employee;
-use BaseApp\hrm\modules\EmployeeManage\search\EmployeeSearch;
+use thienhungho\EmployeeManagement\modules\EmployeeBase\Employee;
+use thienhungho\EmployeeManagement\modules\EmployeeManage\search\EmployeeSearch;
 use Yii;
 use yii\filters\VerbFilter;
 use yii\helpers\Url;

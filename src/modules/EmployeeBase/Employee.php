@@ -1,9 +1,9 @@
 <?php
 
-namespace BaseApp\hrm\modules\EmployeeBase;
+namespace thienhungho\EmployeeManagement\modules\EmployeeBase;
 
 use Yii;
-use \BaseApp\hrm\modules\EmployeeBase\base\Employee as BaseEmployee;
+use \thienhungho\EmployeeManagement\modules\EmployeeBase\base\Employee as BaseEmployee;
 
 /**
  * This is the model class for table "employee".

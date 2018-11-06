@@ -1,14 +1,14 @@
 <?php
 
-namespace BaseApp\hrm\modules\EmployeeManage\search;
+namespace thienhungho\EmployeeManagement\modules\EmployeeManage\search;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use BaseApp\hrm\modules\EmployeeBase\Employee;
+use thienhungho\EmployeeManagement\modules\EmployeeBase\Employee;
 
 /**
- * BaseApp\hrm\modules\EmployeeManage\search\EmployeeSearch represents the model behind the search form about `BaseApp\hrm\modules\EmployeeBase\Employee`.
+ * thienhungho\EmployeeManagement\modules\EmployeeManage\search\EmployeeSearch represents the model behind the search form about `thienhungho\EmployeeManagement\modules\EmployeeBase\Employee`.
  */
  class EmployeeSearch extends Employee
 {

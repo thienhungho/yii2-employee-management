@@ -1,6 +1,6 @@
 <?php
 
-namespace BaseApp\hrm\modules\EmployeeBase;
+namespace thienhungho\EmployeeManagement\modules\EmployeeBase;
 
 /**
  * EmployeeBaseModules module definition class
@@ -10,7 +10,7 @@ class EmployeeBaseModules extends \yii\base\Module
     /**
      * {@inheritdoc}
      */
-    public $controllerNamespace = 'BaseApp\hrm\modules\EmployeeBase\controllers';
+    public $controllerNamespace = 'thienhungho\EmployeeManagement\modules\EmployeeBase\controllers';
 
     /**
      * {@inheritdoc}

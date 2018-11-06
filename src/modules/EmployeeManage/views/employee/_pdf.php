@@ -5,7 +5,7 @@ use yii\widgets\DetailView;
 use kartik\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $model BaseApp\hrm\modules\EmployeeBase\Employee */
+/* @var $model thienhungho\EmployeeManagement\modules\EmployeeBase\Employee */
 
 $this->title = $model->id;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Employee'), 'url' => ['index']];

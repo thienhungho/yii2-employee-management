@@ -1,6 +1,6 @@
 <?php
 /* @var $this yii\web\View */
-/* @var $searchModel BaseApp\hrm\modules\EmployeeManage\search\EmployeeSearch */
+/* @var $searchModel thienhungho\EmployeeManagement\modules\EmployeeManage\search\EmployeeSearch */
 
 /* @var $dataProvider yii\data\ActiveDataProvider */
 

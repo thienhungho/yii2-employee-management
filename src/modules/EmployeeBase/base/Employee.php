@@ -1,6 +1,6 @@
 <?php
 
-namespace BaseApp\hrm\modules\EmployeeBase\base;
+namespace thienhungho\EmployeeManagement\modules\EmployeeBase\base;
 
 use Yii;
 use yii\behaviors\TimestampBehavior;
@@ -144,10 +144,10 @@ class Employee extends \yii\db\ActiveRecord
 
     /**
      * @inheritdoc
-     * @return \BaseApp\hrm\modules\EmployeeBase\query\EmployeeQuery the active query used by this AR class.
+     * @return \thienhungho\EmployeeManagement\modules\EmployeeBase\query\EmployeeQuery the active query used by this AR class.
      */
     public static function find()
     {
-        return new \BaseApp\hrm\modules\EmployeeBase\query\EmployeeQuery(get_called_class());
+        return new \thienhungho\EmployeeManagement\modules\EmployeeBase\query\EmployeeQuery(get_called_class());
     }
 }

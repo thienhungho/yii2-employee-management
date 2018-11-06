@@ -1,11 +1,11 @@
 <?php
 
-namespace BaseApp\hrm\modules\EmployeeBase\query;
+namespace thienhungho\EmployeeManagement\modules\EmployeeBase\query;
 
 /**
- * This is the ActiveQuery class for [[\BaseApp\hrm\modules\EmployeeBase\query\Employee]].
+ * This is the ActiveQuery class for [[\thienhungho\EmployeeManagement\modules\EmployeeBase\query\Employee]].
  *
- * @see \BaseApp\hrm\modules\EmployeeBase\query\Employee
+ * @see \thienhungho\EmployeeManagement\modules\EmployeeBase\query\Employee
  */
 class EmployeeQuery extends \yii\db\ActiveQuery
 {
@@ -17,7 +17,7 @@ class EmployeeQuery extends \yii\db\ActiveQuery
 
     /**
      * @inheritdoc
-     * @return \BaseApp\hrm\modules\EmployeeBase\query\Employee[]|array
+     * @return \thienhungho\EmployeeManagement\modules\EmployeeBase\query\Employee[]|array
      */
     public function all($db = null)
     {
@@ -26,7 +26,7 @@ class EmployeeQuery extends \yii\db\ActiveQuery
 
     /**
      * @inheritdoc
-     * @return \BaseApp\hrm\modules\EmployeeBase\query\Employee|array|null
+     * @return \thienhungho\EmployeeManagement\modules\EmployeeBase\query\Employee|array|null
      */
     public function one($db = null)
     {
