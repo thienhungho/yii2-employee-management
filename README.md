@@ -58,10 +58,10 @@ Add module EmployeeManage to your `AppConfig` file.
 'modules'          => [
     ...
     /**
-     * Block Manage
+     * Employee Manage
      */
     'employee-manage' => [
-        'class' => 'thienhungho\CustomerManagement\modules\CustomerManage\CustomerManagerModule',
+        'class' => 'thienhungho\EmployeeManagement\modules\EmployeeManage\EmployeeManageModules',
     ]
     ...
 ],
@@ -71,9 +71,14 @@ Add module EmployeeManage to your `AppConfig` file.
 Modules
 ------------
 
-[CustomerBase](https://github.com/thienhungho/yii2-customer-management/tree/master/src/modules/CustomerBase), [CustomerManage](https://github.com/thienhungho/yii2-customer-management/tree/master/src/modules/CustomerManage)
+[EmployeeBase](https://github.com/thienhungho/yii2-employee-management/tree/master/src/modules/EmployeeBase), [EmployeeManage](https://github.com/thienhungho/yii2-employee-management/tree/master/src/modules/EmployeeManage)
 
 Functions
 ------------
 
-[Core](https://github.com/thienhungho/yii2-customer-management/tree/master/src/functions/core.php)
+[Core](https://github.com/thienhungho/yii2-employee-management/tree/master/src/functions/core.php)
+
+Constant
+------------
+
+[Core](https://github.com/thienhungho/yii2-employee-management/tree/master/src/const/core.php)
