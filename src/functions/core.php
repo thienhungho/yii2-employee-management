@@ -4,7 +4,7 @@
  */
 function get_current_employee_id()
 {
-    $employee = \BaseApp\hrm\modules\EmployeeBase\Employee::find()
+    $employee = \thienhungho\EmployeeManagement\modules\EmployeeBase\Employee::find()
         ->select('id')
         ->where(['user_id' => get_current_user_id()])
         ->one();
