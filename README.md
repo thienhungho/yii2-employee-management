@@ -78,6 +78,11 @@ Functions
 
 [Core](https://github.com/thienhungho/yii2-employee-management/tree/master/src/functions/core.php)
 
+Models
+------------
+
+[Employee](https://github.com/thienhungho/yii2-employee-management/tree/master/src/models/Employee.php)
+
 Constant
 ------------
 
