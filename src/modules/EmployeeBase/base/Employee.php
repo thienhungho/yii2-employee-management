@@ -37,7 +37,7 @@ use yii\behaviors\BlameableBehavior;
  * @property integer $created_by
  * @property integer $updated_by
  *
- * @property \thienhungho\UserManagement\modules\UserBase\User $user
+ * @property \thienhungho\UserManagement\models\User $user
  */
 class Employee extends \yii\db\ActiveRecord
 {
@@ -117,7 +117,7 @@ class Employee extends \yii\db\ActiveRecord
      */
     public function getUser()
     {
-        return $this->hasOne(\thienhungho\UserManagement\modules\UserBase\User::className(), ['id' => 'user_id']);
+        return $this->hasOne(\thienhungho\UserManagement\models\User::className(), ['id' => 'user_id']);
     }
     
     /**

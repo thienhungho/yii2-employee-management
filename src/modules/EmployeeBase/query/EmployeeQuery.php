@@ -7,7 +7,7 @@ namespace thienhungho\EmployeeManagement\modules\EmployeeBase\query;
  *
  * @see \thienhungho\EmployeeManagement\modules\EmployeeBase\query\Employee
  */
-class EmployeeQuery extends \yii\db\ActiveQuery
+class EmployeeQuery extends \thienhungho\ActiveQuery\models\ActiveQuery
 {
     /*public function active()
     {
