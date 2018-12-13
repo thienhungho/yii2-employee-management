@@ -56,7 +56,7 @@ $this->registerJs($search);
             'visible'   => false,
         ],
         [
-            'class'     => \yii\grid\DataColumn::className(),
+            'class'     => \kartik\grid\DataColumn::className(),
             'format'    => 'raw',
             'attribute' => 'avatar',
             'value'     => function($model, $key, $index, $column) {
@@ -67,6 +67,7 @@ $this->registerJs($search);
                     'target'    => '_blank',
                 ]);
             },
+            'vAlign'    => GridView::ALIGN_MIDDLE,
         ],
         [
             'attribute'           => 'user_id',
@@ -87,13 +88,30 @@ $this->registerJs($search);
                 'placeholder' => t('app', 'User'),
                 'id'          => 'grid-employee-search-user_id',
             ],
+            'vAlign'    => GridView::ALIGN_MIDDLE,
         ],
-        'first_name',
-        'last_name',
-        'phone',
-        'email:email',
+        [
+            'attribute' => 'first_name',
+            'vAlign'    => GridView::ALIGN_MIDDLE,
+        ],
+        [
+            'attribute' => 'last_name',
+            'vAlign'    => GridView::ALIGN_MIDDLE,
+        ],
+        [
+            'attribute' => 'phone',
+            'vAlign'    => GridView::ALIGN_MIDDLE,
+        ],
+        [
+            'attribute' => 'email',
+            'format'    => 'email',
+            'vAlign'    => GridView::ALIGN_MIDDLE,
+        ],
         grid_language_column(),
-        'country',
+        [
+            'attribute' => 'country',
+            'vAlign'    => GridView::ALIGN_MIDDLE,
+        ],
         [
             'format'              => 'raw',
             'attribute'           => 'status',
@@ -128,6 +146,7 @@ $this->registerJs($search);
                 'placeholder' => t('app', 'Status'),
                 'id'          => 'grid-search-status',
             ],
+            'vAlign'    => GridView::ALIGN_MIDDLE,
         ],
         [
             'format'              => 'raw',
@@ -157,6 +176,7 @@ $this->registerJs($search);
                 'placeholder' => t('app', 'Type'),
                 'id'          => 'grid-search-type',
             ],
+            'vAlign'    => GridView::ALIGN_MIDDLE,
         ],
     ];
     $gridColumn[] = grid_view_default_active_column_cofig();
